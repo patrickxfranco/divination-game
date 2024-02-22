@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  
+  --background-color-purple: rgb(194, 233, 251);
+  --background-color-white: rgb(255, 255, 255);
+  --background-color-input: rgb(220, 226, 233);
+  --background-color-button: rgb(120, 121, 241);
+  --font-color-purple: rgb(52, 53, 91);
+}
+
+.hide {
+  display: none;
+}
+
+body {
+  font-size: 1.6rem;
+  
+  background: var(--background-color-purple);
+}
+
+main, form, input, button {
+  font-family: 'DM Sans', sans-serif;
+}
+
+main {
+  width: min(48rem, 90%);
+  padding: 4.8rem 6.4rem;
+  
+  margin: 20rem auto;
+  
+  background: var(--background-color-white);
+  border-radius: 0.6rem;
+  color: var(--font-color-purple);
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+}
+
+p {
+  opacity: 0.8rem;
+  
+  font-weight: 400;
+  margin-bottom: 4.8rem;
+}
+
+form {
+  justify-content: center;
+  
+  display: flex;
+  flex-direction: row;
+}
+
+input, button {
+  padding: 1.6rem;
+  border: none;
+}
+
+input {
+  background: var(--background-color-input);
+  border-radius: 0.4rem 0 0 0.4rem;
+  width: 6rem;
+}
+
+button {
+  background: var(--background-color-button);
+  border-radius: 0 0.4rem 0.4rem 0;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: filter 0.2s;
+}
+
+button:hover {
+  filter: brightness(0.9);
+}
+
+.screen2 button {
+  border-radius: 0.4rem;
+}

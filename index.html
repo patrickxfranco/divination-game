@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./script.js" defer></script>
+  <link rel="stylesheet" href="./style.css">
+  <title>Adivinhação</title>
+</head>
+<body>
+
+  <main>
+    
+    <div class="screen1">
+      <h1>Jogo da Adivinhação</h1>
+      <p>Adivinhe o número entre 0 e 10</p>
+      <form>
+        <input type="number" id="inputNumber" />
+        <button onclick="handleClick(event)">Tentar</button>
+      </form>
+    </div>
+
+    <div class="screen2 hide">
+      <h2>Acertou em X tentativas</h2>
+      <button onclick="playAgain()">Jogar novamente</button>
+    </div>
+  </main>
+  
+</body>
+</html>
