@@ -72,6 +72,7 @@ input {
   background: var(--background-color-input);
   border-radius: 0.4rem 0 0 0.4rem;
   width: 6rem;
+  outline: none;
 }
 
 button {
